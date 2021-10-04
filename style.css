@@ -1,0 +1,48 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+h1, h2 {
+    color:hsl(234, 12%, 34%);
+}
+
+/* PSEUDO CLAS EN ELEMENTS BEKIJKEN */
+h2 {
+    background-color: #fff;
+}
+
+p {
+    color:hsl(229, 6%, 66%);
+    background-color: #fff;
+}
+
+.Header {
+    color:hsl(229, 6%, 66%);
+    font-weight: 300;
+}
+
+/*  vanaf hier @Media */
+h1 {
+    font-size: 165%;
+}
+
+.Cards {
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+    align-content: space-between;
+    background-color: chartreuse;
+}
+
+div {
+    /* width: 400px; */
+    margin: 1% 0%;
+    background-color: #fff;
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) { 
+
+}
