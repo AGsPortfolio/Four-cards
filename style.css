@@ -30,15 +30,37 @@ h1 {
 .Cards {
     display: flex;
     flex-direction: column;
-    /* height: 300px; */
     align-content: space-between;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
 }
 
 div {
     /* width: 400px; */
-    margin: 1% 0%;
+    margin: 3% 0%;
     background-color: #fff;
+    padding: 8% 8%;
+    border-radius: 5px;
+}
+
+div > img {
+    background-color: #fff;
+}
+
+.Supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    box-shadow: -10px 10px 80px ;
+}
+
+.Team-Builder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+}
+
+.Karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.Calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
 }
 
 @media only screen 
