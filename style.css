@@ -69,7 +69,7 @@ div {
 
 @media screen 
 and (min-width: 375px) 
-and (max-width: 812px) { 
+and (max-width: 450px) { 
 
     header {
         padding: 10% 5% 10% 5%;
@@ -86,6 +86,28 @@ and (max-width: 812px) {
         padding: 0% 3% 0% 3%;
     }
 }
+
+@media screen
+and (min-width: 800px)
+/* and (max-width: 1299px) { */
+{
+    header {
+        text-align: center;
+        padding: 5% 5% 5% 5%;
+    }
+
+    .Cards {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-gap: 3% 3%;
+        justify-content: center;
+    }
+
+    img {
+        padding: 10% 5% 0% 5%;
+    }
+}
+
 @media screen 
 and (min-width: 1300px) {
     header {
