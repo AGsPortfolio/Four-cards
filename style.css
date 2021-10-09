@@ -64,12 +64,19 @@ div {
     box-shadow:0 4px 15px 0 hsl(234, 12%, 34%, 0.1), 0 6px 20px 0 hsl(234, 12%, 34%, 0.1);
 }
 
+footer > p{
+    padding: 5% 5% 0% 0%;
+    float: right;
+    font-size: x-small;
+    color:#bec0c6;
+}
+
 /*  vanaf hier @Media */
 
 
 @media screen 
 and (min-width: 375px) 
-and (max-width: 450px) { 
+and (max-width: 800px) { 
 
     header {
         padding: 10% 5% 10% 5%;
@@ -89,11 +96,10 @@ and (max-width: 450px) {
 
 @media screen
 and (min-width: 800px)
-/* and (max-width: 1299px) { */
 {
     header {
         text-align: center;
-        padding: 5% 5% 5% 5%;
+        padding: 2% 5% 5% 5%;
     }
 
     .Cards {
@@ -112,7 +118,7 @@ and (min-width: 800px)
 and (min-width: 1300px) {
     header {
         text-align: center;
-        padding: 5% 5% 5% 5%;
+        padding: 2% 5% 5% 5%;
     }
 
     .Cards {
